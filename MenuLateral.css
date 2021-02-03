@@ -1,0 +1,14 @@
+.redes{
+    border: 20px;
+    background-color: turquoise;
+    margin: 10px;
+    width: 70px;
+    padding: 5px;
+
+}
+a:visited{
+    color: violet;
+}
+a:hover{
+    color: tomato;
+}

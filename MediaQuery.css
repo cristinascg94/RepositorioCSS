@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+   
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+.mIzq{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+}
+.centro{
+    background-color: yellow;
+}
+@media all and (max-width:768px){
+    .cajaGrande{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .mIzq{
+        width: 200px;
+        margin: 10px;
+        height: fit-content;
+    }
+
+}
