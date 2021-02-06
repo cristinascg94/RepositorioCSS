@@ -1,0 +1,14 @@
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: auto;
+    height: 50vh;
+    text-align: center;
+}
+h1{
+    font-family: Comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}

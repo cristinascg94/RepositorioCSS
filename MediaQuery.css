@@ -13,16 +13,44 @@ h1{
 .centro{
     background-color: yellow;
 }
-@media all and (max-width:768px){
+img{
+    display: none;
+}
+@media all and (min-width:768px){
     .cajaGrande{
         display: flex;
         flex-direction: row;
 
     }
     .mIzq{
-        width: 200px;
+        width: 3000px;
         margin: 10px;
         height: fit-content;
     }
+    img{
+        display: block;
+        height: 40vh;
+        width: 40vh;
+    }
+    .centro{
+        display: flex;
+        flex-direction: row;
+    }
 
+}
+@media all and (min-width:1280px){
+    .cajaGrande{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+    #imagen{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+    #Gris{
+        content: normal;
+        height: fit-content;
+    }
 }
