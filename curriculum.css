@@ -1,6 +1,7 @@
 html{
     margin: 0;
     padding: 0;
+    background-color:whitesmoke ;
 }
 body{
     margin: 0;
@@ -26,7 +27,7 @@ body{
 .infoContainer{
     display: flex;
 }
-img{
+.imagen img{
     width: auto;
     height: 50vh;
     text-align: center;
@@ -36,7 +37,7 @@ h1{
     font-size: xx-large;
     text-align: center;
 }
-.rrss {
+.rrss{
     margin: 0;
     background-color: cornflowerblue;
     padding-left: 0;
@@ -46,27 +47,28 @@ h1{
     justify-content: space-around;
     align-items: center;
   }
-  .rrss a {
+  .rrss a{
     color: white;
     text-decoration: none;
   }
-  .rrss i {
+  .rrss i{
     padding: 10px;
     transform: scale(1.5);
   }
   .formacion{
       display: flex;
-      flex-direction:: space-around; row;
-      justify-content
+      flex-direction: row; 
+      justify-content: space-around;
       align-items: center;
-
   }
   .formacion img{
-      box-sizing: content-box;
+      box-sizing:content-box;
       width: 150px;
       height: 50px;
   }
   .formacion p{
       display: flex;
-     display: 
-  }
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+  }; 
