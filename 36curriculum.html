@@ -4,22 +4,24 @@
         <meta charset="utf-8">
         <title>Curriculum</title>
         <link rel="stylesheet" href="curriculum.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     </head>
     <body>
         <div class = "envoltura">
             <div class="infoContainer">
                 <div class="imagen">
-                    <img src="https://via.placeholder.com/200x250" alt="retrato">
+                    <img class="retrato" src="https://via.placeholder.com/200x250" alt="retrato">
                     <div class="personalInfo">
                         <h1>Cristina Sánchez-Cabezudo Goytre</h1>
                         <h2>GIS Technician</h2>
                         <hr>
                         <div class="table info">
-                            <p>Tecnica GIS y de medio ambiente especializada en el área de Energia. Carácter abierto y observador, con gran paciencia y perseverancia, que se adapta a las circunstancias. Gran capacidad para asumir responsabilidades, implicación y nuevos retos, personalidad proactiva y dinámica. Con disponibilidad a la movilidad geográfica.</p>
+                            <p>Técnica GIS y de medio ambiente especializada en el área de Energia. Carácter abierto y observador, con gran paciencia y perseverancia, que se adapta a las circunstancias. Gran capacidad para asumir responsabilidades, implicación y nuevos retos, personalidad proactiva y dinámica. Con disponibilidad a la movilidad geográfica.</p>
                         </div>
                     </div>
                  </div>
              </div>
+             <br>
             <div>
                 <h2>Experiencia profesional</h2>
                 <div>
@@ -29,25 +31,43 @@
                 </div>
                 <hr>
             </div>
-        </div>
+        
             <div>
                 <h2>Formación</h2>
                 <div class="formacion">
-                    <p><img src="Esri.jfif" alt="logo de Esri"><strong>Master GIS de Esri </strong> 2020-2021</p>
-                    <p><img src="UPM.png" alt="logo de UPM"><strong>Grado en Ingenieríad el Medio Natural</strong> 2012-2019</p>
+                    <div class="logos">
+                        <p><img src="Esri.jfif" alt="logo de Esri"></p>
+                        <p><strong>Master GIS de Esri </strong> 2020-2021</p>
+                    </div>
+                    <div class="logos">
+                         <p><img src="UPM.png" alt="logo de UPM"></p>
+                         <p><strong>Grado en Ingenieríad el Medio Natural</strong> 2012-2019</p>
+                    </div>
                 </div>
                 <br>
             </div>
             <div>
                 <div class="info-rrss">
                     <ul class="rrss">
-                      <li><a href="https://www.linkedin.com/in/libertadchapinalcervantes/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+                      <li><a href="https://www.linkedin.com/in/libertadchapinalcervantes/" target="_blank"><i class="fab fa-linkedin"></i></i></a></li>
                       <li><a href="https://github.com/cristinascg94" target="_blank"><i class="fab fa-github"></i>Github</a><li>
                       <li><a href="mailto:cristinascg94@gmail.com" target="_blank"><i class="fas fa-envelope"></i>email</a></li>
                       <link rel="stylesheet" href="curriculum.js">
                     </ul>
                   </div>
             </div>
+            <form action="" method="POST">
+                <ul>
+                    <li><label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name"></li>
+                    <li><label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_mail"></li>
+                    <li><label for="msg">Mensaje:</label><textarea id="msg" name="user_menssage"></textarea></li>
+                    <li class="boton"><button type="submit">Envíe su mensaje</button></li>
+                </ul>
+            </form>
+            <!-- <button onclick="window.print()">Imprimir</button> -->
         </div>
+     </div>
     </body>
 </html>

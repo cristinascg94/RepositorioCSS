@@ -18,7 +18,7 @@ body{
 }
 .personalInfo{
     display: block;
-    margin: 20px;
+    margin: 40px;
 }
 .personalInfo h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -73,6 +73,36 @@ h1{
       justify-content: space-around;
       align-items: center;
   }
+  .logos{
+      display: block;
+      margin: 10px;
+  }
+  form{
+      display: flex;
+      justify-content: space-around;
+      width: 400px;
+      border-radius: 1em;
+      border: 1px solid #CCC;
+  }
+  ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  form li + li{
+      margin-top: 1em;
+  }
+  label{
+      display: inline-block;
+      width: 150px;
+      text-align: right;
+  }
+  input textarea{
+      font: 1em;
+      width: 300px;
+      box-sizing: border-box;
+      border: 1px solid #999;
+  }
   @media (min-width: 320px) {
     body{
         font-size: medium;
@@ -80,7 +110,7 @@ h1{
     .info-container {
       display: flex;
     }
-    .imagen img{
+    .retrato{
         display: none;
     }
     .rrss {
@@ -90,7 +120,6 @@ h1{
       margin: 0 auto;
       padding: 20px 0;
     }
-  
     .rrss li {
       display: flex;
       flex-direction: row;
@@ -104,4 +133,9 @@ h1{
     h2{
         margin:30px;
     }
+  }
+  @media all and (min-width: 1280px){
+      .retrato{
+          display: block;
+      }
   }; 
